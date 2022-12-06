@@ -56,10 +56,6 @@
 //! ```
 
 #![no_std]
-#![cfg_attr(
-    feature = "unstable_const",
-    feature(const_ptr_offset_from, const_refs_to_cell)
-)]
 
 #[macro_use]
 #[cfg(doctests)]
